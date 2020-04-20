@@ -3,7 +3,7 @@ $secondary-color: #3498db;
 $third-color: #eece1a;
 $show-home-image: true; // arka plan resminin gosterilmesi icin
 $home-image: url("/images/background.jpg");
-$background-opacity: 0.9; // opacity degeri icin
+$background-opacity: 0.85; // opacity degeri icin
 
 @mixin easeOut {
   // mixin bu sekilde tanimlaniyor. sonra bunu istedigimiz yerde kullaniyoruz
@@ -14,15 +14,19 @@ $background-opacity: 0.9; // opacity degeri icin
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
-      background-attachment: fixed;
+      background-image: $home-image;
+      background-position: center;
       background-size: cover;
-      //height: 100%;
+
+      //background: $home-image;
+      //background-attachment: fixed;
+      //background-size: cover;
+
       // background-image: url("/images/homePage4background.png");
       // background-position: center;
       // background-size: cover;
 
-      //.overlay { bunu asagidaki ile degistirdik
+      //.overlay --> bunu asagidaki ile degistirdik
       &:after {
         content: "";
         position: absolute;
@@ -30,7 +34,8 @@ $background-opacity: 0.9; // opacity degeri icin
         right: 0;
         width: 100%;
         height: 100%;
-        z-index: -1;
+        z-index: -5;
+        // z-index'i bu kismin yazilarin altinda kalsin diye verdim
         background: rgba($primary-color, $background-opacity);
       }
     }

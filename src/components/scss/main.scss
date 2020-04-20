@@ -10,10 +10,19 @@ body {
   @include background; // background mixin'ini iceri ekliyorum
   background: $primary-color;
   color: #fff;
-  height: 100%;
+
+  //height: 100%;
+  height: 100vh; // body kisminin ekrani 100% kaplamasi icin yaptim
+  //   height: calc(100vh - 160px);
+  /*resimden navbar ve marginlerin yuksekliklerini cikariyoruz.Boylece scroll olusmuyor.*/
+  /* 160px marginler ve navbarın yuksekligi */
+
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  position: relative;
+  z-index: 1;
+  // z-index sadece position değeri relative, absolute ve fixed olan nesnelere uygulanır.
 }
 
 // Headings
@@ -47,7 +56,7 @@ a {
 header {
   // menu butonunun nerde duracagini belirliyorum
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
 }
 

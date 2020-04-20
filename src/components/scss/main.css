@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -220,15 +221,19 @@
 body {
   background: #444;
   color: #fff;
-  height: 100%;
+  height: 100vh;
+  /*resimden navbar ve marginlerin yuksekliklerini cikariyoruz.Boylece scroll olusmuyor.*/
+  /* 160px marginler ve navbarın yuksekligi */
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  position: relative;
+  z-index: 1;
 }
 
 body#bg-img {
-  background: url("/images/background.jpg");
-  background-attachment: fixed;
+  background-image: url("/images/background.jpg");
+  background-position: center;
   background-size: cover;
 }
 
@@ -239,8 +244,8 @@ body#bg-img:after {
   right: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
-  background: rgba(68, 68, 68, 0.9);
+  z-index: -5;
+  background: rgba(68, 68, 68, 0.85);
 }
 
 h1,
@@ -271,7 +276,7 @@ a {
 
 header {
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
 }
 
