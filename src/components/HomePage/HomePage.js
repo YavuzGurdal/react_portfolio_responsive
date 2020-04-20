@@ -58,7 +58,7 @@ function HomePage() {
                         <div className="portrait"></div>
                     </div>
                     <ul className="menu-nav">
-                        <li className="nav-item">
+                        <li className="nav-item current">
                             <a href="/" className="nav-link">
                                 Home
                             </a>
