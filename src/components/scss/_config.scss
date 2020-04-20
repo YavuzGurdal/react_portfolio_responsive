@@ -1,0 +1,38 @@
+$primary-color: #444;
+$secondary-color: #3498db;
+$third-color: #eece1a;
+$show-home-image: true; // arka plan resminin gosterilmesi icin
+$home-image: url("/images/background.jpg");
+$background-opacity: 0.9; // opacity degeri icin
+
+@mixin easeOut {
+  // mixin bu sekilde tanimlaniyor. sonra bunu istedigimiz yerde kullaniyoruz
+  transition: all 0.5s ease-out;
+  // hangisi icin, sure, animation
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+      //height: 100%;
+      // background-image: url("/images/homePage4background.png");
+      // background-position: center;
+      // background-size: cover;
+
+      //.overlay { bunu asagidaki ile degistirdik
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($primary-color, $background-opacity);
+      }
+    }
+  }
+}
