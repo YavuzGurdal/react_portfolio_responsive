@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -57,7 +58,7 @@ header {
 
 main {
   // main kismi
-  padding: 4rem;
+  padding: 4rem; // ana sayfanin paddingini burdan ayarlayabilirim
   height: 100%;
 
   .icons {
