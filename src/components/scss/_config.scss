@@ -42,6 +42,16 @@ $background-opacity: 0.85; // opacity degeri icin
   }
 }
 
+//set text color
+// text rengi icin fonksiyon
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 // Media Query Mixins
 // ekran buyukluklerine gore mixin yapiyorum
 @mixin mediaSm {

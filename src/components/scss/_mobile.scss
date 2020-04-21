@@ -17,6 +17,11 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+
+    &#about {
+      // sadece about me kismi icin gecerli
+      padding: 2rem !important;
+    }
   }
 
   h1 {
@@ -52,6 +57,12 @@
       width: 150px;
       height: 150px;
     }
+  }
+
+  // About Me kismi icin
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-columns: 1fr;
   }
 }
 

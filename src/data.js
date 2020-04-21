@@ -4,13 +4,13 @@ export const aboutMeData = {
     categories: ['all', 'vector', 'raster', 'ui/ux', 'printing'],
 
     aboutMeDivBox: [
-        {
-            divClassName: 'bio',
-            h3ClassName: 'text-secondary',
-            h3Title: 'BIO',
-            h6Title: '',
-            pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porrosed dolor facilis suscipit eum aliquid quia illo,dolorem repudiandae!'
-        },
+        // {
+        //     divClassName: 'bio',
+        //     h3ClassName: 'text-secondary',
+        //     h3Title: 'BIO',
+        //     h6Title: '',
+        //     pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porrosed dolor facilis suscipit eum aliquid quia illo,dolorem repudiandae!'
+        // },
         {
             divClassName: 'job job-1',
             h3ClassName: '',
