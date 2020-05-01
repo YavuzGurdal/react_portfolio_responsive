@@ -1,6 +1,11 @@
 $primary-color: #444;
 $secondary-color: #3498db;
 $third-color: #eece1a;
+//$fourth-color: #588da8;
+//$fourth-color: #bbded6;
+//$fourth-color: #698474;
+//$fourth-color: #297ca0;
+//$fourth-color: #1a3e59;
 $show-home-image: true; // arka plan resminin gosterilmesi icin
 $home-image: url("/images/background.jpg");
 $background-opacity: 0.85; // opacity degeri icin
@@ -18,17 +23,8 @@ $background-opacity: 0.85; // opacity degeri icin
       background-position: center;
       background-size: cover;
 
-      //background: $home-image;
-      //background-attachment: fixed;
-      //background-size: cover;
-
-      // background-image: url("/images/homePage4background.png");
-      // background-position: center;
-      // background-size: cover;
-
-      //.overlay --> bunu asagidaki ile degistirdik
-      &:after {
-        content: "";
+      .overlay {
+        //content: "";
         position: absolute;
         top: 0;
         right: 0;

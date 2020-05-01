@@ -45,7 +45,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9; // bunu kaldiradabilirim. menu kismi acilincaki kisim icin
+  opacity: 0.96; // ******** bunu kaldiradabilirim. menu kismi acilincaki kisim icin **********
   visibility: hidden; // ilk basta gorunmuyor. dugmeye basinca show class'i devreye giriyor ve gorunuyor
 
   &.show {
@@ -69,7 +69,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 15);
     list-style: none; // liste elemanlarinin solundaki noktayi kaldirmak icin
     transform: translate3d(
       0,
@@ -88,7 +88,8 @@
   // Branding Side
   // ekranin sol kismi
   &-branding {
-    background: $primary-color;
+    background: lighten($primary-color, 11);
+    //background: darken($secondary-color, 40);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -99,9 +100,9 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("/images/portrait.jpg");
+      width: 330px;
+      height: 330px;
+      background: url("/images/portrait.jpeg");
       background-size: cover; // fotoyu ortalamasi icin yazdim
       border-radius: 50%;
       border: solid 3px $secondary-color;

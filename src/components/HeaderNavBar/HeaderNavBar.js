@@ -14,10 +14,6 @@ function HeaderNavBar() {
         const navItems = document.querySelectorAll('.nav-item');
 
         // Set Initial State Of Menu
-        //let showMenu = false;
-
-        //menuBtn.addEventListener('click', toggleMenu);
-
         if (!showMenu) {
             menuBtn.classList.add('close'); // close class'ini ekliyoruz
             menu.classList.add('show'); // close class'ini ekliyoruz
@@ -81,7 +77,6 @@ function HeaderNavBar() {
                 </ul>
             </nav>
         </header>
-
     )
 }
 
