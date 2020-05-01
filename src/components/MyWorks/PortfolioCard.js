@@ -3,9 +3,11 @@ import React from 'react'
 //import Fade from 'react-reveal/Flip';
 //import Zoom from 'react-reveal/Zoom';
 
+//const { image, title, subTitle } = props
+
 function PortfolioCard(props) {
 
-    const { image, title, subTitle } = props
+    const { image, title } = props
 
     return (
 
