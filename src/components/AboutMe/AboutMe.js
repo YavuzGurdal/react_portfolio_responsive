@@ -5,7 +5,7 @@ import { aboutMeData } from '../../data'
 //import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-//import Bounce from 'react-reveal/Bounce';  <Slide duration={1800} left> </Slide>
+
 
 function AboutMe() {
     return (
@@ -59,6 +59,7 @@ function AboutMe() {
                                     <p>{item.pText}</p>
                                 </div>
                             </Slide>
+
                         )
                     }
 
