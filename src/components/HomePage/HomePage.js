@@ -282,7 +282,6 @@ function HomePage() {
                 </div>
 
                 <main id='home'>
-
                     <Fade duration={1800} top big>
                         <h1 className="lg-heading">
                             Yavuz <span className="text-secondary">Gürdal</span>
