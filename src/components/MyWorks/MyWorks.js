@@ -92,8 +92,8 @@ class MyWorks extends Component {
                                                                 <h4><a href="!#" target='_blank'>{item.title}</a></h4>
                                                             </div>
                                                             <div class="card-info">
-                                                                <a href="!#"><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
-                                                                <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
+                                                                <a href="https://www.w3schools.com/" target='blank'><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
+                                                                <a href="https://www.w3schools.com/" target='blank'><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
                                                             </div>
                                                             <div class="gradient-overlay"></div>
                                                             <div class="color-overlay"></div>
@@ -119,8 +119,8 @@ class MyWorks extends Component {
                                                             </div>
 
                                                             <div class="card-info">
-                                                                <a href="!#"><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
-                                                                <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
+                                                                <a href="https://www.w3schools.com/" target='blank'><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
+                                                                <a href="https://www.w3schools.com/" target='blank'><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
 
                                                             </div>
                                                             <div class="gradient-overlay"></div>
