@@ -17,9 +17,9 @@ function HeaderNavBar() {
         // Set Initial State Of Menu
         if (!showMenu) {
             menuBtn.classList.add('close'); // close class'ini ekliyoruz
-            menu.classList.add('show'); // close class'ini ekliyoruz
-            menuNav.classList.add('show'); // close class'ini ekliyoruz
-            menuBranding.classList.add('show'); // close class'ini ekliyoruz
+            menu.classList.add('show'); // show class'ini ekliyoruz
+            menuNav.classList.add('show'); // show class'ini ekliyoruz
+            menuBranding.classList.add('show'); // show class'ini ekliyoruz
 
             navItems.forEach(item => item.classList.add('show'))
 
@@ -54,6 +54,30 @@ function HeaderNavBar() {
                 </div>
                 <ul className="menu-nav">
 
+                    <li className="nav-item">
+                        <a href="/" className="nav-link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link onClick={toggleMenu} to="/about" className="nav-link">
+                            About
+                        </Link>
+
+                    </li>
+
+                    <li className="nav-item">
+                        <Link onClick={toggleMenu} to="/work" className="nav-link">
+                            MyWork
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/contact" className="nav-link">
+                            How To Reach Me
+                    </a>
+                    </li>
+
                     {/*<Link to="/">
                         <h2>React Blog</h2>
                     </Link>/
@@ -78,35 +102,15 @@ function HeaderNavBar() {
                             About
                         </a>
                     </li>
-                
-                   */}
-
-
-                    <li className="nav-item">
-                        <a href="/" className="nav-link">
-                            Home
-                        </a>
-                    </li>
-
-
-                    <li className="nav-item">
-                        <Link to="/about" className="nav-link">
-                            About
-                    </Link>
-
-                    </li>
-
 
                     <li className="nav-item">
                         <a href="/work" className="nav-link">
                             My Work
                     </a>
                     </li>
-                    <li className="nav-item">
-                        <a href="/contact" className="nav-link">
-                            How To Reach Me
-                    </a>
-                    </li>
+                
+                   */}
+
                 </ul>
             </nav>
         </header>
