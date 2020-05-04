@@ -136,12 +136,13 @@
     // color: #fff; color icin fonksiyon yazdim
     color: set-text-color($primary-color);
     text-decoration: none;
-    @include easeOut;
+    //@include easeOut;
+    @include easeOutMenuBtn;
 
     &:hover {
       // menunun diger elemanlarinin ustune gidince olusacak renk
       color: $secondary-color;
-      transform: scale(1.13);
+      transform: scale(1.3);
     }
   }
 }

@@ -16,6 +16,12 @@ $background-opacity: 0.85; // opacity degeri icin
   // hangisi icin, sure, animation
 }
 
+@mixin easeOutMenuBtn {
+  // mixin bu sekilde tanimlaniyor. sonra bunu istedigimiz yerde kullaniyoruz
+  transition: all 0.33s ease-out;
+  // hangisi icin, sure, animation
+}
+
 @mixin background {
   @if $show-home-image {
     &#bg-img {
