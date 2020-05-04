@@ -79,7 +79,7 @@ class MyWorks extends Component {
                         {
                             this.state.category.length === 0 ?
                                 (
-                                    <Fragment>
+                                    <div>
                                         {
                                             portfolioData.cards.map((item, index) =>
                                                 <PortfolioCard
@@ -88,11 +88,11 @@ class MyWorks extends Component {
                                                 />
                                             )
                                         }
-                                    </Fragment>
+                                    </div>
                                 )
                                 :
                                 (
-                                    <Fragment>
+                                    <div>
                                         {
                                             this.state.category.map((item, index) =>
                                                 <PortfolioCard
@@ -101,7 +101,7 @@ class MyWorks extends Component {
                                                 />
                                             )
                                         }
-                                    </Fragment>
+                                    </div>
                                 )
                             // burdaki item soldaki arrow function'daki item. baska bisey yazsaydim buraya da onu yazacaktim
                         }
