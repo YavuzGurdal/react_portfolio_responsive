@@ -119,10 +119,6 @@
           transform: translate3d(0, 0, 0);
 }
 
-.menu .nav-item.current > a {
-  color: #3498db;
-}
-
 .menu .nav-link {
   display: block;
   position: relative;

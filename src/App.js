@@ -14,7 +14,7 @@ import ContactMe from './components/ContactMe/ContactMe';
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <HeaderNavBar />
 
 
@@ -31,7 +31,7 @@ function App() {
       </Switch>
 
 
-    </Fragment>
+    </div>
   );
 }
 

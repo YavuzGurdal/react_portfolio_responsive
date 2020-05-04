@@ -11,7 +11,7 @@ import Particles from 'react-particles-js';
 function HomePage() {
 
     return (
-        <Fragment>
+        <div>
 
             <body id='bg-img'>
 
@@ -314,7 +314,7 @@ function HomePage() {
                 </main>
 
             </body>
-        </Fragment>
+        </div>
     )
 }
 
