@@ -40,84 +40,77 @@ export const portfolioData = {
     //categories: ['all', 'vector', 'raster', 'ui/ux', 'printing'],
     categories: ['all', 'react-js', 'JAVASCRIPT', 'html', 'printing'],
     cards: [
-        // {
-        //     title: '3D Helmet Design',
-        //     subTitle: 'Corporate',
-        //     image: '/images/helmet.webp',
-        //     category: 'react-js'
-        // },
         {
             title: '3D Helmet Design',
             subTitle: 'Corporate',
-            image: '/images/portraitt.jpg',
+            image: '/images/helmet.webp',
             category: 'react-js'
+        },
+        {
+            title: '2D Vinyl Design',
+            subTitle: 'Personal',
+            image: '/images/record.webp',
+            category: 'JAVASCRIPT'
+        },
+        {
+            title: 'Creative Poster Design',
+            subTitle: 'Agency',
+            image: '/images/poster.webp',
+            category: 'html'
+        },
+        {
+            title: '3D Helmet Design',
+            subTitle: 'Corporate',
+            image: '/images/space.webp',
+            category: 'react-js'
+        },
+        {
+            title: '2D Vinyl Design',
+            subTitle: 'Personal',
+            image: '/images/flubber.webp',
+            category: 'JAVASCRIPT'
+        },
+        {
+            title: 'Embosed Logo Design',
+            subTitle: 'Portal',
+            image: '/images/megical.webp',
+            category: 'printing'
+        },
+        {
+            title: 'Embosed Logo Design',
+            subTitle: 'Portal',
+            image: '/images/poster.webp',
+            category: 'printing'
+        },
+        {
+            title: '3D Helmet Design',
+            subTitle: 'Corporate',
+            image: '/images/megical.webp',
+            category: 'react-js'
+        },
+        {
+            title: 'Creative Poster Design',
+            subTitle: 'Agency',
+            image: '/images/record.webp',
+            category: 'html'
+        },
+        {
+            title: 'Creative Poster Design',
+            subTitle: 'Agency',
+            image: '/images/record.webp',
+            category: 'html'
+        },
+        {
+            title: 'Embosed Logo Design',
+            subTitle: 'Portal',
+            image: '/images/helmet.webp',
+            category: 'printing'
+        },
+        {
+            title: '2D Vinyl Design',
+            subTitle: 'Personal',
+            image: '/images/poster.webp',
+            category: 'JAVASCRIPT'
         }
-        //,
-        // {
-        //     title: '2D Vinyl Design',
-        //     subTitle: 'Personal',
-        //     image: '/images/record.webp',
-        //     category: 'JAVASCRIPT'
-        // },
-        // {
-        //     title: 'Creative Poster Design',
-        //     subTitle: 'Agency',
-        //     image: '/images/poster.webp',
-        //     category: 'html'
-        // },
-        // {
-        //     title: '3D Helmet Design',
-        //     subTitle: 'Corporate',
-        //     image: '/images/space.webp',
-        //     category: 'react-js'
-        // },
-        // {
-        //     title: '2D Vinyl Design',
-        //     subTitle: 'Personal',
-        //     image: '/images/flubber.webp',
-        //     category: 'JAVASCRIPT'
-        // },
-        // {
-        //     title: 'Embosed Logo Design',
-        //     subTitle: 'Portal',
-        //     image: '/images/megical.webp',
-        //     category: 'printing'
-        // },
-        // {
-        //     title: 'Embosed Logo Design',
-        //     subTitle: 'Portal',
-        //     image: '/images/poster.webp',
-        //     category: 'printing'
-        // },
-        // {
-        //     title: '3D Helmet Design',
-        //     subTitle: 'Corporate',
-        //     image: '/images/megical.webp',
-        //     category: 'react-js'
-        // },
-        // {
-        //     title: 'Creative Poster Design',
-        //     subTitle: 'Agency',
-        //     image: '/images/record.webp',
-        //     category: 'html'
-        // },
-        // {
-        //     title: 'Creative Poster Design',
-        //     subTitle: 'Agency',
-        //     image: '/images/record.webp',
-        //     category: 'html'
-        // },
-        // {
-        //     title: 'Embosed Logo Design',
-        //     subTitle: 'Portal',
-        //     image: '/images/helmet.webp',
-        //     category: 'printing'
-        // },
-        // {
-        //     title: '2D Vinyl Design',
-        //     subTitle: 'Personal',
-        //     image: '/images/poster.webp',
-        //     category: 'JAVASCRIPT'
-        // }
     ]
 }

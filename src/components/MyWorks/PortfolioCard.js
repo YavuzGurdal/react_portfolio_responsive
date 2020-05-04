@@ -43,9 +43,9 @@ function PortfolioCard(props) {
 */}
                     <div class="card-info">
                         {/*<a href="!#"><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
-                        <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>*/}
+                        <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
                         <i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span>
-                        <i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span>
+                        <i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span> */}
                     </div>
                     <div class="gradient-overlay"></div>
                     <div class="color-overlay"></div>
