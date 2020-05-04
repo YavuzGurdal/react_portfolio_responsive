@@ -1,6 +1,6 @@
 import React from 'react'
 import '../scss/main.css'
-//import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function HeaderNavBar() {
 
@@ -56,7 +56,7 @@ function HeaderNavBar() {
 
                     {/*<Link to="/">
                         <h2>React Blog</h2>
-                    </Link>/}
+                    </Link>/
 
                     <Link to="/">
                         <li className="nav-item current">
@@ -66,18 +66,37 @@ function HeaderNavBar() {
                             </h2>
 
                         </li>
-                    </Link> */}
+                    </Link> /
+
+                    <li className="nav-item">
+                        <a href="/" className="nav-link">
+                            Home
+                        </a>
+                    </li> 
+                    <li className="nav-item">
+                        <a href="/about" className="nav-link">
+                            About
+                        </a>
+                    </li>
+                
+                   */}
+
 
                     <li className="nav-item">
                         <a href="/" className="nav-link">
                             Home
                         </a>
                     </li>
+
+
                     <li className="nav-item">
-                        <a href="/about" className="nav-link">
+                        <Link to="/about" className="nav-link">
                             About
-                        </a>
+                    </Link>
+
                     </li>
+
+
                     <li className="nav-item">
                         <a href="/work" className="nav-link">
                             My Work
