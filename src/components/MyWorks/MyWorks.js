@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../scss/main.css'
 import { portfolioData } from '../../data'
-import PortfolioCard from './PortfolioCard';
+//import PortfolioCard from './PortfolioCard';
 
 import $ from 'jquery'
 
