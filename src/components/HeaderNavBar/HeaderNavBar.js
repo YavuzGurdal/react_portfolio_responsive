@@ -55,9 +55,9 @@ function HeaderNavBar() {
                 <ul className="menu-nav">
 
                     <li className="nav-item">
-                        <a href="/" className="nav-link">
+                        <Link onClick={toggleMenu} to="/" className="nav-link">
                             Home
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="nav-item">
@@ -69,13 +69,13 @@ function HeaderNavBar() {
 
                     <li className="nav-item">
                         <Link onClick={toggleMenu} to="/work" className="nav-link">
-                            MyWork
+                            My Work
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/contact" className="nav-link">
+                        <Link onClick={toggleMenu} to="/contact" className="nav-link">
                             How To Reach Me
-                    </a>
+                    </Link>
                     </li>
 
                     {/*<Link to="/">
