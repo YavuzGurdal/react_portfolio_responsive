@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import '../scss/main.css'
 import { portfolioData } from '../../data'
 import PortfolioCard from './PortfolioCard';
@@ -43,9 +43,9 @@ class MyWorks extends Component {
     render() {
 
         // burayi my work kismindaki basliklara tikalyinca, basliklarin rengini ve alt cizgiyi olusturmak icin yazdim
-        $(document).on('click', 'ul li', function () {
-            $(this).addClass('active').siblings().removeClass('active')
-        })
+        // $(document).on('click', 'ul li', function () {
+        //     $(this).addClass('active').siblings().removeClass('active')
+        // })
 
         return (
             <body>
