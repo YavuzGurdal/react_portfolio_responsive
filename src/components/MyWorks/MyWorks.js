@@ -43,9 +43,9 @@ class MyWorks extends Component {
     render() {
 
         // burayi my work kismindaki basliklara tikalyinca, basliklarin rengini ve alt cizgiyi olusturmak icin yazdim
-        // $(document).on('click', 'ul li', function () {
-        //     $(this).addClass('active').siblings().removeClass('active')
-        // })
+        $(document).on('click', 'ul li', function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        })
 
         return (
             <body>
@@ -79,7 +79,7 @@ class MyWorks extends Component {
                         {
                             this.state.category.length === 0 ?
                                 (
-                                    <div>
+                                    <div style={{ display: 'contents' }}>
                                         {
                                             portfolioData.cards.map((item, index) =>
                                                 <PortfolioCard
@@ -92,7 +92,7 @@ class MyWorks extends Component {
                                 )
                                 :
                                 (
-                                    <div>
+                                    <div style={{ display: 'contents' }}>
                                         {
                                             this.state.category.map((item, index) =>
                                                 <PortfolioCard
