@@ -17,7 +17,6 @@ function App() {
     <div>
       <HeaderNavBar />
 
-
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutMe} />
@@ -29,7 +28,6 @@ function App() {
        <HomePage />
      */}
       </Switch>
-
 
     </div>
   );

@@ -52,6 +52,7 @@ function HeaderNavBar() {
                 <div className="menu-branding"> {/* menu tusuna basinca acilacak kisim */}
                     <div className="portrait"></div>
                 </div>
+
                 <ul className="menu-nav">
 
                     <li className="nav-item">
@@ -64,7 +65,6 @@ function HeaderNavBar() {
                         <Link onClick={toggleMenu} to="/about" className="nav-link">
                             About
                         </Link>
-
                     </li>
 
                     <li className="nav-item">
@@ -72,6 +72,7 @@ function HeaderNavBar() {
                             My Work
                         </Link>
                     </li>
+
                     <li className="nav-item">
                         <Link onClick={toggleMenu} to="/contact" className="nav-link">
                             How To Reach Me

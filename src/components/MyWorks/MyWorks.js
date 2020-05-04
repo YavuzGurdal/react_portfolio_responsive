@@ -82,6 +82,87 @@ class MyWorks extends Component {
                                     <div style={{ display: 'contents' }}>
                                         {
                                             portfolioData.cards.map((item, index) =>
+
+                                                <div key={index} className="item">
+                                                    <div style={{ position: 'relative' }} >
+                                                        <div class="blog-card">
+                                                            <img src={item.image} alt="" style={{ width: '100%', height: '100%' }} />
+                                                            <div class="title-contentUp">
+                                                                {/*<h3><a href="!#" target='_blank'>{title}</a></h3>
+                        <h4><a href="!#" target='_blank'>{title}</a></h4>*/}
+                                                                <h3>{item.title}</h3>
+                                                                <h4>{item.title}</h4>
+
+                                                            </div>
+                                                            {/*<div class="title-content">
+                        <h3><a href="!#" target='_blank'>{title}</a></h3>
+                        <div class="intro"> <a href="!#">Inspiration</a> </div>
+                        </div>
+                    {subTitle}
+                    */}
+
+                                                            <div class="card-info">
+                                                                {/*<a href="!#"><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
+                        <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
+                        <i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span>
+                        <i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span> */}
+                                                            </div>
+                                                            <div class="gradient-overlay"></div>
+                                                            <div class="color-overlay"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        }
+                                    </div>
+                                )
+                                :
+                                (
+                                    <div style={{ display: 'contents' }}>
+                                        {
+                                            this.state.category.map((item, index) =>
+                                                <div key={index} className="item">
+                                                    <div style={{ position: 'relative' }} >
+                                                        <div class="blog-card">
+                                                            <img src={item.image} alt="" style={{ width: '100%', height: '100%' }} />
+                                                            <div class="title-contentUp">
+                                                                {/*<h3><a href="!#" target='_blank'>{title}</a></h3>
+                <h4><a href="!#" target='_blank'>{title}</a></h4>*/}
+                                                                <h3>{item.title}</h3>
+                                                                <h4>{item.title}</h4>
+
+                                                            </div>
+                                                            {/*<div class="title-content">
+                <h3><a href="!#" target='_blank'>{title}</a></h3>
+                <div class="intro"> <a href="!#">Inspiration</a> </div>
+                </div>
+            {subTitle}
+            */}
+
+                                                            <div class="card-info">
+                                                                {/*<a href="!#"><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
+                <a href="!#"><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
+                <i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span>
+                <i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span> */}
+                                                            </div>
+                                                            <div class="gradient-overlay"></div>
+                                                            <div class="color-overlay"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        }
+                                    </div>
+                                )
+                            // burdaki item soldaki arrow function'daki item. baska bisey yazsaydim buraya da onu yazacaktim
+                        }
+
+                        {/*
+                            this.state.category.length === 0 ?
+                                (
+                                    <div style={{ display: 'contents' }}>
+                                        {
+                                            portfolioData.cards.map((item, index) =>
                                                 <PortfolioCard
                                                     key={index}
                                                     {...item}
@@ -104,7 +185,7 @@ class MyWorks extends Component {
                                     </div>
                                 )
                             // burdaki item soldaki arrow function'daki item. baska bisey yazsaydim buraya da onu yazacaktim
-                        }
+                                    */}
 
                     </div>
                 </main>
