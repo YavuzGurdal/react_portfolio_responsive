@@ -206,14 +206,12 @@
   font-weight: 400;
   letter-spacing: 1px;
   font-family: "Raleway";
-  text-transform: uppercase;
   margin-bottom: 0;
   display: block;
-}
-
-.blog-card h3 a {
   font-weight: bolder;
   text-transform: capitalize;
+  color: black;
+  cursor: default;
 }
 
 .blog-card h4 {
@@ -225,11 +223,9 @@
   margin-bottom: 0;
   margin-top: 0;
   display: block;
-}
-
-.blog-card h4 a {
   font-weight: bold;
-  color: #e31b6d;
+  color: #e31b6d !important;
+  cursor: default;
 }
 
 .blog-card .card-info {
@@ -405,8 +401,8 @@
 .categoryHeadBox ul li:hover {
   cursor: pointer;
   color: #3498db;
-  -webkit-animation: rubberBandd 1s ease-in-out;
-          animation: rubberBandd 1s ease-in-out;
+  -webkit-animation: rubberBandd 1.2s ease-in-out;
+          animation: rubberBandd 1.2s ease-in-out;
 }
 
 .categoryHeadBox ul li::after {

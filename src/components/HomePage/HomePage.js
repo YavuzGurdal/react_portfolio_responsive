@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import '../scss/main.css'
 
 import Fade from 'react-reveal/Fade';
@@ -305,7 +305,7 @@ function HomePage() {
                             <a href="#!">
                                 <i className="fab fa-linkedin fa-2x"></i> {/* fa-2x iconlarin boyutunu buyutmek icin */}
                             </a>
-                            <a href="#!">
+                            <a href="https://github.com/YavuzGurdal" target='blank'>
                                 <i className="fab fa-github fa-2x"></i> {/* fa-2x iconlarin boyutunu buyutmek icin */}
                             </a>
                         </div>

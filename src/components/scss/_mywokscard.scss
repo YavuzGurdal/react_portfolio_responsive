@@ -52,17 +52,13 @@
     //font-family: "Abril Fatface", serif;
     //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-family: "Raleway";
-    text-transform: uppercase;
     margin-bottom: 0;
     //display: inline-block;
     display: block;
-
-    a {
-      // text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-      // transition: all 0.2s;
-      font-weight: bolder;
-      text-transform: capitalize;
-    }
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: black;
+    cursor: default;
   }
 
   h4 {
@@ -77,13 +73,9 @@
     //display: inline-block;
     display: block;
 
-    a {
-      // text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-      // transition: all 0.2s;
-      font-weight: bold;
-      //color: $secondary-color;
-      color: #e31b6d;
-    }
+    font-weight: bold;
+    color: #e31b6d !important;
+    cursor: default;
   }
 
   .card-info {
@@ -238,7 +230,7 @@
       //color: #a8ca6b;
       color: $secondary-color;
       //color: #e31b6d;
-      animation: rubberBandd 1s ease-in-out;
+      animation: rubberBandd 1.2s ease-in-out;
     }
 
     &::after {
