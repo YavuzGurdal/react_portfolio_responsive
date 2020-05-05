@@ -100,7 +100,7 @@ export const portfolioData = {
             title: 'rock-paper-scissors game',
             subTitle: 'JAVASCRIPT',
             category: 'JAVASCRIPT',
-            image: '/images/tas-kagit-makas.jpg',
+            image: '/images/tas-kagit-makas2.jpg',
             project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
             githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
         },
@@ -108,7 +108,7 @@ export const portfolioData = {
             title: 'rock-paper-scissors game',
             subTitle: 'JAVASCRIPT',
             category: 'JAVASCRIPT',
-            image: '/images/tas-kagit-makas2.jpg',
+            image: '/images/tas-kagit-makas.jpg',
             project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
             githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
         },

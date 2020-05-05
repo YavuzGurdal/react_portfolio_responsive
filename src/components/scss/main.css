@@ -811,6 +811,10 @@ main#work h1 {
         grid-template-columns: 1fr;
     padding: 0 2.5rem;
   }
+  .categoryHeadBox ul li {
+    margin: 0 0.6rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -824,6 +828,10 @@ main#work h1 {
   }
   .projects img {
     height: 200px;
+  }
+  .categoryHeadBox ul li {
+    margin: 0 0.39rem;
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
