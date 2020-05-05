@@ -60,7 +60,7 @@ export const portfolioData = {
             title: 'HTML and CSS Portfolio',
             subTitle: 'HTML / CSS',
             category: 'html',
-            image: '/images/htmlandcssportfolioo.png',
+            image: '/images/htmlandcssportfolio.png',
             project: 'https://yavuzgurdal.github.io/HTML-and-CSS_Portfolio-Site/',
             githubPage: 'https://github.com/YavuzGurdal/HTML-and-CSS_Portfolio-Site'
         },
@@ -97,17 +97,21 @@ export const portfolioData = {
             githubPage: 'https://github.com/YavuzGurdal/HTML_Bootstrap-Web-Site-3'
         },
         {
-            title: '2D Vinyl Design',
-            subTitle: 'Personal',
-            image: '/images/record.webp',
-            category: 'JAVASCRIPT'
+            title: 'rock-paper-scissors game',
+            subTitle: 'JAVASCRIPT',
+            category: 'JAVASCRIPT',
+            image: '/images/tas-kagit-makas.jpg',
+            project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
+            githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
         },
-        // {
-        //     title: 'Creative Poster Design',
-        //     subTitle: 'Agency',
-        //     image: '/images/poster.webp',
-        //     category: 'html'
-        // },
+        {
+            title: 'rock-paper-scissors game',
+            subTitle: 'JAVASCRIPT',
+            category: 'JAVASCRIPT',
+            image: '/images/tas-kagit-makas2.jpg',
+            project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
+            githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
+        },
         {
             title: '3D Helmet Design',
             subTitle: 'Corporate',
