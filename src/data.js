@@ -105,6 +105,14 @@ export const portfolioData = {
             githubPage: 'https://github.com/YavuzGurdal/HTML_Bootstrap-Web-Site-3'
         },
         {
+            title: 'currency app',
+            subTitle: 'JAVASCRIPT / css',
+            category: 'JAVASCRIPT',
+            image: '/images/currencyApp.png',
+            project: 'https://yavuzgurdal.github.io/CurrencyApp/',
+            githubPage: 'https://github.com/YavuzGurdal/CurrencyApp'
+        },
+        {
             title: 'rock-paper-scissors game',
             subTitle: 'JAVASCRIPT',
             category: 'JAVASCRIPT',
@@ -112,13 +120,21 @@ export const portfolioData = {
             project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
             githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
         },
+        // {
+        //     title: 'rock-paper-scissors game',
+        //     subTitle: 'JAVASCRIPT',
+        //     category: 'JAVASCRIPT',
+        //     image: '/images/tas-kagit-makas.jpg',
+        //     project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
+        //     githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
+        // },
         {
-            title: 'rock-paper-scissors game',
+            title: 'car race',
             subTitle: 'JAVASCRIPT',
             category: 'JAVASCRIPT',
-            image: '/images/tas-kagit-makas.jpg',
-            project: 'https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/',
-            githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
+            image: '/images/carRace.png',
+            project: 'https://yavuzgurdal.github.io/JS_Car-Race/',
+            githubPage: 'https://github.com/YavuzGurdal/JS_Car-Race'
         },
         {
             title: 'Number-Guessing-Game',
