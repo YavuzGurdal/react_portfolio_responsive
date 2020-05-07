@@ -49,6 +49,14 @@ export const portfolioData = {
             githubPage: 'https://github.com/YavuzGurdal/HTML_hello_world'
         },
         {
+            title: 'todo list app',
+            subTitle: 'React / css',
+            image: '/images/space.webp',
+            category: 'react-js',
+            project: 'https://yavuzgurdal.github.io/react_todo_list_app/',
+            githubPage: 'https://github.com/YavuzGurdal/react_todo_list_app'
+        },
+        {
             title: 'My First WebSite',
             subTitle: 'HTML',
             category: 'html',
