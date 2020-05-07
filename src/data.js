@@ -51,7 +51,7 @@ export const portfolioData = {
         {
             title: 'todo list app',
             subTitle: 'React / css',
-            image: '/images/space.webp',
+            image: '/images/todoListApp.png',
             category: 'react-js',
             project: 'https://yavuzgurdal.github.io/react_todo_list_app/',
             githubPage: 'https://github.com/YavuzGurdal/react_todo_list_app'
