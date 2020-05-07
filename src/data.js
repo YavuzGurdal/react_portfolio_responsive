@@ -113,6 +113,14 @@ export const portfolioData = {
             githubPage: 'https://github.com/YavuzGurdal/JS_Rock-Paper-Scissors-Game'
         },
         {
+            title: 'Number-Guessing-Game',
+            subTitle: 'JAVASCRIPT',
+            category: 'JAVASCRIPT',
+            image: '/images/NumberGuessinGame.png',
+            project: 'https://yavuzgurdal.github.io/JS_Number-Guessing-Game/',
+            githubPage: 'https://github.com/YavuzGurdal/JS_Number-Guessing-Game'
+        },
+        {
             title: '3D Helmet Design',
             subTitle: 'Corporate',
             image: '/images/space.webp',
