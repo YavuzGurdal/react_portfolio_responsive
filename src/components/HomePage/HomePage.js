@@ -302,7 +302,7 @@ function HomePage() {
                             <a href="#!">
                                 <i className="fab fa-facebook fa-2x"></i> {/* fa-2x iconlarin boyutunu buyutmek icin */}
                             </a>
-                            <a href="www.linkedin.com/in/yavuz-gürdal-81b6981a9/" target='blank'>
+                            <a href="https://www.linkedin.com/in/yavuz-gürdal-81b6981a9/" target='blank'>
                                 <i className="fab fa-linkedin fa-2x"></i> {/* fa-2x iconlarin boyutunu buyutmek icin */}
                             </a>
                             <a href="https://github.com/YavuzGurdal" target='blank'>
