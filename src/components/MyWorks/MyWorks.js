@@ -95,7 +95,7 @@ class MyWorks extends Component {
                                                                 <a href={item.project} target='blank'><i className="fas fa-eye"></i> &nbsp; Project <span class="licon icon-arr icon-black"></span></a>
                                                                 <a href={item.githubPage} target='blank'><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
                                                             </div>
-                                                            <div class="gradient-overlay"></div>
+                                                            {/*<div class="gradient-overlay"></div>*/}
                                                             <div class="color-overlay"></div>
                                                         </div>
                                                     </div>
@@ -123,7 +123,7 @@ class MyWorks extends Component {
                                                                 <a href={item.githubPage} target='blank'><i className="fab fa-github"></i> &nbsp; GitHub<span class="licon icon-arr icon-black"></span></a>
 
                                                             </div>
-                                                            <div class="gradient-overlay"></div>
+                                                            {/*<div class="gradient-overlay"></div>*/}
                                                             <div class="color-overlay"></div>
                                                         </div>
                                                     </div>

@@ -68,9 +68,10 @@ h3 {
       0.5
     ); // birinci deger renk, 0.5 opacity degeri
 
-    &:hover {
-      animation: rubberBandd 1.2s infinite;
-    }
+    // &:hover {
+    //   animation: rubberBandd 1.2s infinite;
+    // }
+    //
   }
 }
 
@@ -145,6 +146,8 @@ main {
     // background: linear-gradient(to right, #acb6e5, #86fde8);
     // background: linear-gradient(to left, #bdc3c7, #2c3e50);
     background: linear-gradient(to right, #232526, #414345);
+    background: linear-gradient(to right, #3d72b4, #525252);
+    background: linear-gradient(to right, #2c3e50, #3498db);
 
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -152,11 +155,26 @@ main {
 
     h1 {
       margin-top: 2vh;
+      text-shadow: #3498db -2px 0px 2px, #3498db 0px 2px 2px,
+        #3498db 0px -2px 2px, #3498db 2px 0px 2px;
     }
 
-    // .sm-heading {
-    //   margin-bottom: 1rem;
-    // }
+    .sm-heading {
+      margin-bottom: 1rem;
+    }
+    .lg-heading {
+      //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+      text-shadow: #333 -2px 0px 1px, #333 0px 2px 1px, #333 0px -2px 1px,
+        #333 2px 0px 1px, #333 -2px -2px 1px, #333 2px 2px 1px,
+        #333 -2px 2px 1px, #333 2px -2px 1px;
+
+      span {
+        text-shadow: #fff -1px 0px 1px, #fff 0px 1px 1px, #fff 0px -1px 1px,
+          #fff 1px 0px 1px, #fff -1px -1px 1px, #fff 1px 1px 1px,
+          #fff -1px 1px 1px, #fff 1px -1px 1px;
+      }
+    }
   }
 }
 
