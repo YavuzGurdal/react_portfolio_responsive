@@ -8,26 +8,26 @@ export const aboutMeData = {
         //     h6Title: '',
         //     pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porrosed dolor facilis suscipit eum aliquid quia illo,dolorem repudiandae!'
         // },
-        {
-            divClassName: 'job job-1',
-            h3ClassName: '',
-            h3Title: '123 Webshop',
-            h6Title: 'Lorem, ipsum dolor.',
-            pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porro sed.'
-        },
-        {
-            divClassName: 'job job-2',
-            h3ClassName: '',
-            h3Title: 'Designer',
-            h6Title: 'Lorem, ipsum dolor.',
-            pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porro sed.'
-        },
+        //{
+        //    divClassName: 'job job-1',
+        //    h3ClassName: '',
+        //    h3Title: '123 Webshop',
+        //    h6Title: 'Lorem, ipsum dolor.',
+        //    pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porro sed.'
+        //},
+        //{
+         //   divClassName: 'job job-2',
+        //    h3ClassName: '',
+        //    h3Title: 'Designer',
+        //    h6Title: 'Lorem, ipsum dolor.',
+        //    pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porro sed.'
+        //},
         {
             divClassName: 'job job-3',
             h3ClassName: '',
             h3Title: 'react developer',
-            h6Title: 'Lorem, ipsum dolor.',
-            pText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque maiores impedit ad vero vitae aliquam dolores voluptatem natus porro sed.'
+            h6Title: '',
+            pText: ''
         }
 
     ]
@@ -144,18 +144,18 @@ export const portfolioData = {
             project: 'https://html-bootstrap-website-2.netlify.app/',
             githubPage: 'https://github.com/YavuzGurdal/HTML_Bootstrap-Web-Site-3'
         },
-        {
-            title: '3D Helmet Design',
-            subTitle: 'Corporate',
-            image: '/images/space.webp',
-            category: 'react-js'
-        },
-        {
-            title: '2D Vinyl Design',
-            subTitle: 'Personal',
-            image: '/images/flubber.webp',
-            category: 'JAVASCRIPT'
-        },
+        //{
+        //    title: '3D Helmet Design',
+        //    subTitle: 'Corporate',
+        //    image: '/images/space.webp',
+        //    category: 'react-js'
+        //},
+        //{
+        //    title: '2D Vinyl Design',
+        //    subTitle: 'Personal',
+        //    image: '/images/flubber.webp',
+        //    category: 'JAVASCRIPT'
+        //},
         // {
         //     title: 'Embosed Logo Design',
         //     subTitle: 'Portal',
@@ -168,12 +168,12 @@ export const portfolioData = {
         //     image: '/images/poster.webp',
         //     category: 'printing'
         // },
-        {
-            title: '3D Helmet Design',
-            subTitle: 'Corporate',
-            image: '/images/megical.webp',
-            category: 'react-js'
-        },
+        //{
+        //    title: '3D Helmet Design',
+        //    subTitle: 'Corporate',
+        //    image: '/images/megical.webp',
+        //    category: 'react-js'
+        //},
         // {
         //     title: 'Creative Poster Design',
         //     subTitle: 'Agency',
@@ -192,11 +192,11 @@ export const portfolioData = {
         //     image: '/images/helmet.webp',
         //     category: 'printing'
         // },
-        {
-            title: '2D Vinyl Design',
-            subTitle: 'Personal',
-            image: '/images/poster.webp',
-            category: 'JAVASCRIPT'
-        }
+        //{
+        //    title: '2D Vinyl Design',
+        //    subTitle: 'Personal',
+        //    image: '/images/poster.webp',
+        //    category: 'JAVASCRIPT'
+        //}
     ]
 }
